@@ -1,0 +1,4 @@
+import cv2
+img = cv2.imread(r'C:\Users\pedda\OneDrive\Pictures\Saved Pictures\wp6303668-marvel-4k-wallpapers.jpg')
+crop_img = img[50:200, 100:300]
+cv2.imwrite('cropped.jpg', crop_img)
